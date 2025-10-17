@@ -1,3 +1,8 @@
+# ---- Safe import for imghdr ----
+try:
+    import imghdr
+except ImportError:
+    import mimetypes as imghdr
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 from pytube import YouTube
