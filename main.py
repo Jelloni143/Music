@@ -9,8 +9,8 @@ from pytube import YouTube
 from googletrans import Translator
 import requests
 
-TOKEN = "8437366478:AAHRskNg5XcAUn42ItkHlWz6nCh2UuvyOsw"
-ADMIN_CONTACT = "6933831183"
+TOKEN = "BOT_TOKEN"
+ADMIN_CONTACT = "ADMIN_CHAT_ID"
 
 translator = Translator()
 
