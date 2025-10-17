@@ -5,6 +5,4 @@ services:
     plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python main.py"
-    envVars:
-      BOT_TOKEN: "8437366478:AAHRskNg5XcAUn42ItkHlWz6nCh2UuvyOsw"
-      ADMIN_CHAT_ID: "6933831183"
+    
